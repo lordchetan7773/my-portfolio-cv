@@ -32,14 +32,14 @@ export function Hero() {
               rel="noreferrer"
             >
               <img src={telegram} alt="" /> 
-              <h3>Download my resume for your refference </h3>
+              <h3>Download my resume for your reference </h3>
             </a></div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           {/* <BrowserRouter>
             <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
           </BrowserRouter> */}
-          <h3 style={{ color: 'black', background: 'white', padding: '1rem', borderRadius: '1rem' }}>Discover the essence of my coding prowess across various platforms:</h3>
+          <h3 style = {{background:'white' ,color:'black', padding:'1rem' , border : '0.1rem solid black'}}>Discover the essence of my coding prowess across various platforms:</h3>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>

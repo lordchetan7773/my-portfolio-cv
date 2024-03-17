@@ -3,7 +3,9 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   margin-top: 15rem;
-  
+  .companyname{
+    color : var(--green) ;
+  }
   h2{
     text-align: center;
     font-size: 4rem;
@@ -50,7 +52,7 @@ export const Container = styled.section`
       h3{
         margin-bottom: 2rem;
       }
-
+    
       p{
         letter-spacing: 0.12rem;
         margin-bottom: 2rem;

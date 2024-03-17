@@ -37,7 +37,7 @@ export function About() {
           With expertise in languages like <span className="aboutmepera">C++</span>, JavaScript, and frameworks like React.js, I'm poised to tackle complex challenges head-on and contribute meaningfully to the tech landscape.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
-          <h3>Here are my main skills:</h3>
+          <h3 style={{ background: 'white', color: 'black', padding: '1rem', border: '0.1rem solid black' , marginBottom:'4rem'}}>Here are my main skills</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           <div className="hability">
